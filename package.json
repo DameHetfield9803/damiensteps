@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "bunx --bun vite --open",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "bun vite dev",
+    "build": "tsc && bun vite build",
+    "preview": "bun vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
